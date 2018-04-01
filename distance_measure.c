@@ -1,19 +1,4 @@
-// BranchingFunctionsDelays.c Lab 6
-// Runs on LM4F120/TM4C123
-// Use simple programming structures in C to 
-// toggle an LED while a button is pressed and 
-// turn the LED on when the button is released.  
-// This lab will use the hardware already built into the LaunchPad.
-// Daniel Valvano, Jonathan Valvano
-// January 15, 2016
 
-// built-in connection: PF0 connected to negative logic momentary switch, SW2
-// built-in connection: PF1 connected to red LED
-// built-in connection: PF2 connected to blue LED
-// built-in connection: PF3 connected to green LED
-// built-in connection: PF4 connected to negative logic momentary switch, SW1
-
-#include "TExaS.h"
 //port f regs
 #define GPIO_PORTF_DATA_R       (*((volatile unsigned long *)0x400253FC))
 #define GPIO_PORTF_DIR_R        (*((volatile unsigned long *)0x40025400))
